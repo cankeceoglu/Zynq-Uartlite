@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Uart_Exp_rst_ps7_0_100M_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_Exp_axi_uartlite_0_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_Exp_processing_system7_0_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_Exp_xbar_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_Exp_auto_pc_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_Exp_axi_gpio_0_0_synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/Uart_Exp_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Programlar/Vivado/VivadoProjects/Uart_Example/Uart_Example.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Uart_Exp_rst_ps7_0_100M_0_synth_1"/>
+		<Parent Id="Uart_Exp_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="Uart_Exp_processing_system7_0_0_synth_1"/>
+		<Parent Id="Uart_Exp_xbar_0_synth_1"/>
+		<Parent Id="Uart_Exp_auto_pc_0_synth_1"/>
+		<Parent Id="Uart_Exp_axi_gpio_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
